@@ -69,7 +69,7 @@ class Credentials():
         Credentials.credentials_list.append(self)
 
     def delete_credentials(self):
-        
+
         """
         delete_credentials method that deletes an account credentials from the credentials_list
         """
@@ -90,6 +90,7 @@ class Credentials():
         found_credentials = Credentials.find_credential(account)
         (found_credentials.password)
 
+
     @classmethod
     def if_credential_exist(cls, account):
         """
@@ -99,6 +100,7 @@ class Credentials():
             if credential.account == account:
                 return True
         return False
+
         
     @classmethod
     def display_credentials(cls):
