@@ -37,6 +37,7 @@ The user would like to.... :
 
 
 ### Running the Application
+
 * To run the application, open the cloned file in terminal and run the following commands:
 
         $ chmod +x interface.py
@@ -45,6 +46,7 @@ The user would like to.... :
         $ python3 password-test.py
 
 ## Behaviour Driven Development
+
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
 |Open the application on the terminal | Run the command ```$ ./interface.py```|Hello Welcome to your Accounts Password Store... <br>* CA ---  Create New Account * LI ---  Have An Account |
