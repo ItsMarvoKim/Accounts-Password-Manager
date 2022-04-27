@@ -52,7 +52,7 @@ class Credentials():
             if(user.username == username and user.password == password):
                     a_user == user.username
         return a_user
-        
+
 
     def __init__(self,account,userName, password):
         """
@@ -69,9 +69,11 @@ class Credentials():
         Credentials.credentials_list.append(self)
 
     def delete_credentials(self):
+        
         """
         delete_credentials method that deletes an account credentials from the credentials_list
         """
+
         Credentials.credentials_list.remove(self)
     
     @classmethod
