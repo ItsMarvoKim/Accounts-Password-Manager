@@ -35,11 +35,13 @@ class User:
         '''
         User.user_list.remove(self)
 
+
 class Credentials():
     """
     Create credentials class to help create new objects of credentials
     """
     credentials_list = []
+
     @classmethod
     def verify_user(cls,username, password):
         """
@@ -50,6 +52,7 @@ class Credentials():
             if(user.username == username and user.password == password):
                     a_user == user.username
         return a_user
+        
 
     def __init__(self,account,userName, password):
         """
