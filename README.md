@@ -3,11 +3,13 @@
 
 [ItsMarvoKim](https://github.com/ItsMarvoKim)
 
+
 ## Description
 
 This is a python application that manages login and signup credentials of a user for various accounts i.e. username and passwords for each account. It also stores/holds the passwords and generates a unique password for a user if they do not want to generate new passwords by themselves.
 
 ## User Stories
+
 The user would like to.... :
 * To create an account for the application or log into the application.
 * Store my existing acounts login details for various accounts that i have registered for.
@@ -19,8 +21,9 @@ The user would like to.... :
 ## Installation / Setup instruction
 
 #### The application requires the following installations to operate 
-* python3.6
+* python3.6 ,3.7 ,3.8, 3.9 or 3.10 
 * pip
+
 
 #### Cloning
 
@@ -31,6 +34,7 @@ The user would like to.... :
 * cd Accounts-Password-Manager
 
 * code . or atom . based on the text editor you have.
+
 
 ### Running the Application
 * To run the application, open the cloned file in terminal and run the following commands:
@@ -54,7 +58,7 @@ The user would like to.... :
 
 ## Technologies Used
 
-* python3.6
+* python3.10
 
 ## Known Bugs
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
