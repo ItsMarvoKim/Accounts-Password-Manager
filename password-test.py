@@ -27,7 +27,7 @@ class TestClass(unittest.TestCase):
         """
         self.new_user.save_user()
         self.assertEqual(len(User.user_list),1)
-        
+
 
 class TestCredentials(unittest.TestCase):
     """
@@ -110,6 +110,7 @@ class TestCredentials(unittest.TestCase):
         '''
 
         self.assertEqual(Credentials.display_credentials(),Credentials.credentials_list)
+
 
 if __name__ == "__main__":
     unittest.main()
