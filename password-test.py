@@ -94,6 +94,7 @@ class TestCredentials(unittest.TestCase):
 
         self.assertEqual(the_credential.account,test_credential.account)
 
+
     def test_credential_exist(self):
         """
         test to check if we can return a true or false based on whether we find or can't find the credential.
@@ -103,6 +104,7 @@ class TestCredentials(unittest.TestCase):
         the_credential.save_details()
         credential_is_found = Credentials.if_credential_exist("GitHub")
         self.assertTrue(credential_is_found)
+
 
     def test_display_all_saved_credentials(self):
         '''
