@@ -13,6 +13,7 @@ class TestClass(unittest.TestCase):
         """
         self.new_user = User('MarvinKimathi','XyZ3thf1')
 
+
     def test_init(self):
         """
         test case to chek if the object has been initialized correctly
@@ -34,6 +35,7 @@ class TestCredentials(unittest.TestCase):
     A test class that defines test cases for credentials class
 
     """ 
+    
     def setUp(self):
         """
         Method that runs before each individual credentials test methods run.
