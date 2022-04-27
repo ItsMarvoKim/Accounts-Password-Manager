@@ -3,6 +3,7 @@ from password import User
 from password import Credentials
 
 class TestClass(unittest.TestCase):
+
     """
     A Test class that defines test cases for the User class.
     """
@@ -26,6 +27,7 @@ class TestClass(unittest.TestCase):
         """
         self.new_user.save_user()
         self.assertEqual(len(User.user_list),1)
+        
 
 class TestCredentials(unittest.TestCase):
     """
