@@ -73,21 +73,21 @@ def generate_Password():
     return auto_password
 def copy_password(account):
     """
-    A funct that copies the password using the pyperclip framework
+    A function that copies the password using the pyperclip framework
     We import the framework then declare a function that copies the emails.
     """
     return Credentials.copy_password(account)
 
 
 def passlocker() :
-    print("Hello Welcome to your Accounts Password Store...\n Please enter one of the following to proceed.\n CA ---  Create New Account  \n LI ---  Have An Account  \n")
+    print("Hello Welcome to your Accounts Password Manager...\n Please enter one of the following to proceed.\n CA ---  Create New Account  \n LI ---  Have An Account  \n")
     short_code=input("").lower().strip()
     if short_code == "ca":
         print("Sign Up")
         print('*' * 50)
         username = input("User_name: ")
         while True:
-            print(" TP - To type your own pasword:\n CP - To generate random Password")
+            print(" TP - To type your own password:\n CP - To generate randomized Password")
             password_Choice = input().lower().strip()
             if password_Choice == 'tp':
                 password = input("Enter Password\n")
@@ -103,13 +103,13 @@ def passlocker() :
         print("*"*85)
     elif short_code == "li":
         print("*"*50)
-        print("Enter your User name and your Password to log in:")
+        print("Enter your Username and your Password to log in:")
         print('*' * 50)
         username = input("User name: ")
         password = input("password: ")
         login = login_user(username,password)
         if login_user == login:
-            print(f"Hello {username}.Welcome To Acoounts Password Manager")  
+            print(f"Hello {username}.Welcome To Accounts Password Manager")  
             print('\n')
     while True:
         print("Use these short codes:\n CC - Create a new credential \n DC - Display Credentials \n FC - Find a credential \n CP - Generate A randomn password \n D - Delete credential \n EX - Exit the application \n")
@@ -171,7 +171,7 @@ def passlocker() :
                 print(f"Your stored credentials for : {search_credential.account} successfully deleted!!!")
                 print('\n')
             else:
-                print("That Credential you want to delete does not exist in your store yet")
+                print("The Credential you want to delete does not exist in your store yet")
 
         elif short_code == 'cp':
 
