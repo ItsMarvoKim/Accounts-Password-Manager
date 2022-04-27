@@ -181,7 +181,7 @@ def passlocker() :
             print("Thanks for using Accounts Password Manager.. Come back soon!")
             break
         else:
-            print("Wrong entry... Check your entry again and let it match those in the menu")
+            print("Wrong entry... Kindly match those in the menu")
 
 
 if __name__ == '__main__':
