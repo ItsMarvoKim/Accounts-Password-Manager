@@ -7,6 +7,7 @@ class TestClass(unittest.TestCase):
     """
     A Test class that defines test cases for the User class.
     """
+    
     def setUp(self):
         """
         Method that runs before each individual test methods run.
@@ -35,7 +36,7 @@ class TestCredentials(unittest.TestCase):
     A test class that defines test cases for credentials class
 
     """ 
-    
+
     def setUp(self):
         """
         Method that runs before each individual credentials test methods run.
