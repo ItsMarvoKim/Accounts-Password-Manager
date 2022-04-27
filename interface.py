@@ -82,7 +82,7 @@ def copy_password(account):
 def passlocker() :
     print("Hello Welcome to your Accounts Password Manager...\n Please enter one of the following to proceed.\n CA ---  Create New Account  \n LI ---  Have An Account  \n")
     short_code=input("").lower().strip()
-    if short_code == "ca":
+    if short_code == "ca" :
         print("Sign Up")
         print('*' * 50)
         username = input("User_name: ")
