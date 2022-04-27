@@ -176,9 +176,9 @@ def passlocker() :
         elif short_code == 'cp':
 
             password = generate_Password()
-            print(f" {password} Has been generated succesfull. You can proceed to use it to your account")
+            print(f" {password} Has been generated succesfully. You can proceed to use it for your account")
         elif short_code == 'ex':
-            print("Thanks for using Accounts Password Manager.. See you next time!")
+            print("Thanks for using Accounts Password Manager.. Come back soon!")
             break
         else:
             print("Wrong entry... Check your entry again and let it match those in the menu")
